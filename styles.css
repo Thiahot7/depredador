@@ -1,0 +1,117 @@
+body{
+    padding-top: 80px; /*Tamaño extra de la barra de navegacion*/
+    background-image: url(./img/depredador_fondo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+/*Barra de navegacion*/            
+header{
+    background: #333;
+    height: 80px;
+
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+.barra_li{
+    display: inline;
+    text-align: center;
+    margin: 10px;
+    background-color: #eeeeee;
+}
+.barra_ul{
+    text-align: center;
+}
+#logo{
+    display: inline;
+    float: left;
+}
+/*Tablas*/
+table, td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 8px;
+}
+.margen_tablas_izquierda{
+    margin-left: 400px;
+}
+.margen_tablas_derecha{
+    float: right;
+    margin-right: 60px;
+}
+/*Contenedores y imagenes*/
+.imagenes_izquierda{
+    float: left;
+    height: 550px;
+    width: 390px;
+    margin-right: 20px;
+}
+.imagenes_derecha{
+    float: right;
+    height: 550px;
+    width: 390px;
+}
+.contenedor{
+    height: 1200px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 10px auto;
+    padding: 50px;
+    max-width: 800px;
+    border-radius: 8px;
+}
+.comics_izquierda{
+    float: left;
+    height: 460px;
+    width: 300px;
+}
+.comics_derecha{
+    float: right;
+    height: 460px;
+    width: 300px;
+}
+.contenedor_comics{
+    height: 550px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 10px auto;
+    padding: 50px;
+    max-width: 800px;
+    border-radius: 8px;
+}
+.contenedor_juegos{
+    height: 1000px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 10px auto;
+    padding: 50px;
+    max-width: 800px;
+    border-radius: 8px;
+}
+.imagenes_juegos{
+    height: 200px;
+    width: 320px;
+}
+.portadas_juegos{
+    height: 400px;
+    width: 640px;
+}
+footer{
+    color: white;
+}
+/*Otras cosas*/
+h1{
+    color: white;
+}
+h2{
+    color: #9D1C1C
+}
+.imagenes_actores{
+    height: 100px;
+    width: 100px;
+}
