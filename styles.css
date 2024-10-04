@@ -63,6 +63,11 @@ table, td{
     max-width: 800px;
     border-radius: 8px;
 }
+.imagenes_actores{
+    height: 100px;
+    width: 100px;
+}
+/*comics*/
 .comics_izquierda{
     float: left;
     height: 460px;
@@ -83,6 +88,7 @@ table, td{
     max-width: 800px;
     border-radius: 8px;
 }
+/*juegos*/
 .contenedor_juegos{
     height: 1000px;
     margin-left: 40px;
@@ -101,9 +107,6 @@ table, td{
     height: 400px;
     width: 640px;
 }
-footer{
-    color: white;
-}
 /*Otras cosas*/
 h1{
     color: white;
@@ -111,7 +114,6 @@ h1{
 h2{
     color: #9D1C1C
 }
-.imagenes_actores{
-    height: 100px;
-    width: 100px;
+footer{
+    color: white;
 }
