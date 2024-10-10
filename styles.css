@@ -107,6 +107,9 @@ table, td{
     height: 400px;
     width: 640px;
 }
+.imagenes_centro{
+    text-align: center;
+}
 /*Otras cosas*/
 h1{
     color: white;
