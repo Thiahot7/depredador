@@ -4,6 +4,11 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+
+
+    position: relative;
+    min-height: 100vh ;
+    padding-bottom: 220px;
 }
 /*Barra de navegacion*/            
 header{
@@ -15,18 +20,39 @@ header{
     top: 0;
     position: fixed;
 }
-.barra_li{
-    display: inline;
-    text-align: center;
-    margin: 10px;
-    background-color: #eeeeee;
+
+.barra_ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
 }
-.barra_ul{
-    text-align: center;
+
+
+.barra_li {
+    margin: 0 5px;
 }
+
+.barra_li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px; 
+}
+
+.barra_li a:hover {
+    background-color: #555;
+    border-radius: 5px; 
+}
+
+
 #logo{
     display: inline;
     float: left;
+    position: absolute; 
+    left: 20px; 
+
 }
 /*Tablas*/
 table, td{
@@ -127,6 +153,42 @@ h1{
 h2{
     color: #9D1C1C
 }
-footer{
+body main p{
     color: white;
+}    
+
+footer {
+    background-color: #181818;
+    padding: 10px;
+    text-align: center;
+    color: #ffcc00;
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
+body footer figure a{
+    margin-right: 50px;
+}
+.footer_link_blanco{
+    color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
