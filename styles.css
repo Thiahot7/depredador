@@ -68,14 +68,7 @@ table, td{
     margin-right: 60px;
 }
 /*Contenedores y imagenes*/
-.imagenes_izquierda{
-    float: left;
-    height: 550px;
-    width: 390px;
-    margin-right: 20px;
-}
-.imagenes_derecha{
-    float: right;
+.portadas_peliculas{
     height: 550px;
     width: 390px;
 }
