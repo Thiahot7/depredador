@@ -60,13 +60,6 @@ table, td{
     border: 1px solid black;
     padding: 8px;
 }
-.margen_tablas_izquierda{
-    margin-left: 400px;
-}
-.margen_tablas_derecha{
-    float: right;
-    margin-right: 60px;
-}
 /*Contenedores y imagenes*/
 .portadas_peliculas{
     height: 550px;
